@@ -1,0 +1,130 @@
+/* width and height */
+#width-p {
+    background-color: antiquewhite;
+    width: 200px;
+}
+
+#height-p {
+    background-color: rgb(199, 118, 12);
+    width: 500px;
+    height: 150px;
+}
+
+/* border setup */
+
+#border-none {
+    background-color: antiquewhite;
+    width: 500px;
+    height: 150px;
+
+    /* the default border is invisible */
+}
+
+#border-style {
+    background-color: brown;
+    width: 500px;
+    height: 150px;
+
+    border-style: solid;
+    /* at least border-style is needed to show the border */
+}
+
+#border-width {
+    background-color: burlywood;
+    width: 500px;
+    height: 150px;
+
+    border-style: solid;
+    border-width: 20px;
+    /* the width is 500 + 20*2 = 540   */
+}
+
+#border-width-size {
+    background-color: burlywood;
+    width: 500px;
+    height: 150px;
+
+    border-style: solid;
+    border-width: 20px;
+    box-sizing: border-box;
+    /* the width is 500 by sizing it*/
+}
+
+#border-color {
+    background-color: bisque;
+    width: 500px;
+    height: 150px;
+
+    border-style: solid;
+    border-width: 10px;
+    border-color: brown;
+}
+
+
+#border-specify {
+    background-color: darkred;
+    width: 500px;
+    height: 150px;
+
+    border-style: solid;
+    border-width: 20px;
+
+    border-top-width: 5px;
+    border-left-style: dashed;
+    /* specify a certain border */
+}
+
+#border-shorthand {
+    background-color: darkred;
+    width: 500px;
+    height: 150px;
+
+    border: 20px solid;
+    /* shorthand border's  width and style*/
+    border-top-width: 5px;
+    border-left-style: dashed;
+}
+
+
+#border-radius-1 {
+
+    text-align: center;
+
+    background-color: rgba(255, 192, 203, 0.755);
+    width: 500px;
+    height: 150px;
+
+    border: solid pink 40px;
+    border-radius: 10px;
+}
+
+#border-radius-2 {
+
+    text-align: center;
+
+    background-color: rgba(255, 192, 203, 0.755);
+    width: 500px;
+    height: 150px;
+
+    border: solid pink 40px;
+    border-radius: 40px 10px;
+
+    /*the border radius equals to 
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    */
+}
+
+#border-radius-3 {
+    text-align: center;
+
+    background-color: rgba(255, 192, 203, 0.755);
+    width: 75px;
+    height: 75px;
+
+    border: solid pink 40px;
+    border-radius: 50%;
+    /* set the radius based on box size */
+}

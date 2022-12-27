@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+}
+ /*remove the margin of body */
+
+h1{
+    width: 500px;
+    height: 200px;
+    background-color: blue;
+    margin:0px;
+}
+#text-1{
+    width: 300px;
+    height: 100px;
+    background-color: blueviolet;
+
+    margin-left: 20px;
+}
+#text-2{
+    width: 300px;
+    height: 100px;
+    background-color: purple;
+}
+#text-2 span{
+    color:red;
+    margin: 50px;
+
+    /* the top and botton margins are ignored due to span is inline(discuss in later class)*/
+}
+
+#text-3{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+
+    margin: 10px 20px 30px 50px; 
+    /* top right bottom right */
+}

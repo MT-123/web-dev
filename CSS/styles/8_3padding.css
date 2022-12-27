@@ -1,0 +1,35 @@
+#apple{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    border: solid 5px;
+    border-radius: 5px;
+}
+
+div[class=orange]{
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: aquamarine;
+    border: solid 5px;
+    border-radius: 5px;
+
+    padding: 25px;
+}
+button[class="orange"]{
+    padding:10px;
+}
+
+#banana-1{
+    padding: 5px 20px;
+    /* up-down left-right */
+}
+#banana-2{
+    padding: 0px 20px;
+    /* top-bottom left-right */
+}
+#banana-3{
+    padding: 10px 20px 30px 40px;
+    /* top right bottom right */
+}

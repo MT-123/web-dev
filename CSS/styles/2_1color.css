@@ -1,0 +1,18 @@
+/* color picker
+https://htmlcolorcodes.com/color-picker/
+*/
+h2 {
+    color: bisque;
+}
+
+/* rgb color*/
+h3 {
+    color: rgb(117, 215, 106);
+    /* range:0-255 */
+}
+
+/* hexadecimal color */
+h4 {
+    color: #8f8f11;
+    /*range:0-ff*/
+}

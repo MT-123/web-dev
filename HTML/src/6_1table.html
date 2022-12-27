@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <h1>
+        Table Element
+    </h1>
+    <h2>td(Data cell), tr(Row), and th(Header)</h2>
+    <h3>fruits</h3>
+    <table>
+        <tr>
+            <th>type</th>
+            <th>mass(g)</th>
+            <th>price($)</th>
+        </tr>
+        <tr>
+            <td>apple</td>
+            <td>300</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>orange</td>
+            <td>250</td>
+            <td>3</td>
+        </tr>
+    </table>
+<hr>
+    <h2>thead, tbody,and tfoot</h2>
+    <table>
+        <thead>
+            <!-- the table head\ -->
+            <tr>
+                <th>type</th>
+                <th>mass(g)</th>
+                <th>price($)</th>
+            </tr>
+        </thead>
+        <!-- table body -->
+        <tbody>
+            <tr>
+                <td>apple</td>
+                <td>300</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>orange</td>
+                <td>250</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+<hr>
+<h2>Colspan and Rowspan</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">type</th>
+            <!-- type takes 2 row space -->
+            <th rowspan="2">mass(g)</th>
+            <!-- mass takes 2 row space -->
+            <th colspan="2">price</th>
+            <!-- mass takes 2 column space -->
+        </tr>
+        <tr>
+            <th>USD</th>
+            <th>NTD</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>apple</td>
+            <td>300</td>
+            <td>5</td>
+            <td>150</td>
+        </tr>
+        <tr>
+            <td>orange</td>
+            <td>250</td>
+            <td>3</td>
+            <td>90</td>
+        </tr>
+    </tbody>
+</table>
+
+
+</body>
+
+</html>

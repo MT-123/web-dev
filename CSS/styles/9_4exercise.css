@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+button {
+    font-size: 2rem;
+    color: rgba(210, 0, 154, 0.932);
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid rgba(176, 0, 132, 0.566);
+    padding: .5em 1.5em;
+    transition: color 1s, border 1s, box-shadow 1s, transform 1s;
+    /* each property and time is required to set up separately even if the time is the same */
+}
+
+button:hover {
+    color: rgba(255, 255, 255, 0.853);
+    border: 5px solid rgb(222, 135, 249);
+    transform: translateY(-.5em);
+    box-shadow: 0 .5em .5em -.15em rgb(214, 156, 255);
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    cursor: pointer
+}

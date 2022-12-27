@@ -1,0 +1,24 @@
+body {
+    color: gray;
+}
+
+/* elements inside the body inherit the attribute color grey */
+
+.first-heading {
+    color: aquamarine;
+}
+
+/* inheritted attribute can be overwritten */
+
+
+section {
+    color: brown;
+}
+
+/* the inheritage will choose the nearest element. */
+
+#with-inheritage {
+    color: inherit;
+}
+
+/* some elements like button do not inherit the color so an explicit setting is needed */

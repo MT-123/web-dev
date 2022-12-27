@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative Unit</title>
+    <link rel="stylesheet" href="styles/8_6relativeUnit.css">
+</head>
+
+<body>
+    <h1>Relative Unit</h1>
+    <hr>
+    <h2 id="percentage">Percentage %</h2>
+    <div>
+        <div>
+            Inner division.
+        </div>
+    </div>
+    <hr>
+    <h2 id="em">em</h2>
+    <article>
+        Article
+        <div>Division in the article.</div>
+    </article>
+    <button id="button-px-1x">Button 1x</button>
+    <button id="button-px-3x">Button 3x</button><br>
+    <button id="button-em-1x">Button 1x</button>
+    <button id="button-em-3x">Button 3x</button>
+    <hr>
+    <h2 id="rem">rem</h2>
+    <h3>Nested structure</h3>
+    <h4>Using em</h4>
+    <article class="em">
+        <ul>
+            <li>list 1
+                <ul>
+                    <li>list 2
+                        <ul>
+                            <li id="fruit-em">
+                                Apple
+                            </li>
+                            <li id="fruit-em">
+                                Grape
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </article>
+    <article class="rem">
+        <ul>
+            <li>list 1
+                <ul>
+                    <li>list 2
+                        <ul>
+                            <li id="fruit-rem">
+                                Apple
+                            </li>
+                            <li id="fruit-rem">
+                                Grape
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </article>
+</body>
+
+</html>

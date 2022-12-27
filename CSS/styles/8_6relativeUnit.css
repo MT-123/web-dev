@@ -1,0 +1,73 @@
+#percentage+div {
+    width: 500px;
+    height: 500px;
+    background-color: #a2a8d3;
+}
+
+#percentage+div div {
+    width: 50%;
+    height: 50%;
+    /* percentage to the parent(outer div) */
+    font-size: 20px;
+    line-height: 500%;
+    /* percentage to itself(its font) */
+
+    background-color: #38598b;
+}
+
+
+#em+article {
+    font-size: 30px;
+}
+
+#em+article>div {
+    font-size: 2em;
+    /* equals to 60px */
+}
+
+#button-px-1x {
+    font-size: 20px;
+    background-color: #ffb5b5;
+    padding: 5px 10px;
+    border-radius: 10px;
+    
+}
+
+#button-px-3x {
+    font-size: 60px;
+    padding: 5px 10px;
+    background-color: #ffb5b5;
+    border-radius: 10px;
+    /* the button shape is not resemble to the original one */
+}
+
+html {
+    font-size: 20px;
+}
+
+#button-em-1x {
+    font-size: 1em;
+    /* the parent font-size is 20 px(from html font size) */
+    padding: 0.25em 0.5em;
+    background-color: #ffb5b5;
+    border-radius: 0.5em;
+}
+
+#button-em-3x {
+    font-size: 3em;
+    padding: 0.25em 0.5em;
+    background-color: #ffb5b5;
+    border-radius: 0.5em;
+    /* the em of padding and border-radius is based on its own font-size 
+    so the shape is the same*/
+}
+
+.em ul{
+    font-size: 2em;
+}
+/* the inner most font will be 2*2*2=8 times bigger */
+
+.rem ul{
+    font-size: 2rem;
+}
+/* the rem uses root html element's font size instead of parent's */

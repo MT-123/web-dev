@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Form</h1>
+    <div class="container">
+        <h2>Form</h2>
+        <form action="somewhere">
+
+            <div class="row">
+                <!-- use row to include the form group for typography -->
+
+                <div class="form-group col-md-6">
+                    <!-- use form group to include the input -->
+                    <!-- for medium window and larger, take 6(half) spacings
+                    for smaller, take 12(all) the spacings  -->
+                    <label for="user">User</label>
+                    <input type="text" name="user_name" id="user" class="form-control">
+                    <!-- use form control to select the input -->
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="pass">password</label>
+                    <input type="password" name="pass" id="pass" class="form-control">
+                </div>
+            </div>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control">
+
+            <div class="row g-0">
+                <!-- div to wrap the radio or it will lost shape -->
+                <div class="col-md-3">
+                    <input type="radio" name="gender" value="m" id="male">
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" value="f" id="female">
+                    <label for="female">female</label>
+                </div>
+
+                <div class="form-group col-md-2">
+                    <select name="case" id="case" class="form-control text-center">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- switch copy from sample -->
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" name="check">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+            </div>
+
+            <button class="btn btn-success">Submit</button>
+
+        </form>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

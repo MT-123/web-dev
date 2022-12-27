@@ -1,0 +1,43 @@
+/* Cascade */
+h1+h2 {
+    color: violet;
+}
+
+/* the color will be green instead of violet due to latter link in the header */
+
+#cascade {
+    color: brown;
+}
+
+#cascade {
+    color: grey;
+}
+
+/* the color will be grey instead of brown due to the latter selector*/
+
+/* Specificity */
+/* priority: Inline > ID > class > element */
+
+button {
+    background-color: aqua;
+}
+
+button.with-class {
+    background-color: blue;
+}
+
+#with-id {
+    background-color: violet;
+}
+
+#with-id-inline{
+    background-color: green;
+}
+/* the color will be brown instead of green due to inline style is brown */
+
+/* 
+#with-id-inline{
+    background-color: green !important;
+}
+ */
+ /* "!important" will beat all the priority and thus the color will be green */

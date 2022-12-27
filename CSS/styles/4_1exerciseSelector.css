@@ -1,0 +1,23 @@
+/* Make all LI's blue */
+/* element */
+li {
+    color: blue;
+}
+
+/* Make everything with the class of 'done' grey*/
+/* class */
+.done {
+    color: grey;
+}
+
+/* use comma to multiple select */
+.egg,.nest{
+    color:brown;
+}
+
+/* Make the element with the id of 'clear' have a red BG and white text */
+/* id */
+#clear {
+    background-color: red;
+    color: white;
+}

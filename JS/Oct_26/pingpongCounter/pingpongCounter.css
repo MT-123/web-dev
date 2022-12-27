@@ -1,0 +1,10 @@
+.winner{
+    font-size: 3em;
+    font-weight: bold;
+    color: green;
+}
+.loser{
+    font-size: 3em;
+    font-weight: bold;
+    color: red;
+}

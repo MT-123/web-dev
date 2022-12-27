@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size:80px;
+    font-family:Segoe UI,Arial;
+    /* font-family stack is with priority and all options separated by , */
+    /* check availability font family at https://www.cssfontstack.com/ */
+}
+
+ h2 {
+    letter-spacing: 15px;
+ }
+
+a {
+    text-decoration:none;
+    /* the underline of the hyper link will not show */
+}

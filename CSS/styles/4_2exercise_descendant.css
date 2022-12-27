@@ -1,0 +1,28 @@
+/* descendant adjacent*/
+header a {
+    font-size: 30px;
+    color: teal;
+}
+
+#dislikes a {
+    font-weight: bold;
+    color: red;
+}
+
+/* direct descendant adjacent*/
+nav > a {
+    font-weight: 800;
+    color: blueviolet;
+}
+
+/* adjacent selector */
+#dislikes + p {
+    color:blue;
+    text-decoration: underline wavy;
+}
+
+/* Attribute selector */
+input[type="password"]{
+/* no space before[ */
+    color:rgb(165, 42, 120);
+}

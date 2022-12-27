@@ -1,0 +1,81 @@
+div[class="block"] {
+    width: 200px;
+    height: 200px;
+    background-color: #9fd3c7;
+    border: solid black 5px;
+}
+
+div[class="block-to-inline-block"] {
+    width: 200px;
+    height: 200px;
+    background-color: #9fd3c7;
+    border: solid black 5px;
+    display: inline-block;
+    /* setting "display: inline" will lose the witdth and height */
+}
+
+span[class="span"] {
+    width: 200px;
+    height: 200px;
+    background-color: #9fd3c7;
+    border: solid black 5px;
+}
+
+span[class="span-to-block"] {
+    width: 200px;
+    height: 200px;
+    background-color: #9fd3c7;
+    border: solid black 5px;
+    display: block;
+
+}
+
+
+#inline-example {
+    width: 250px;
+    height: 275px;
+    background-color: #ececec;
+    border: solid black 2px;
+
+}
+
+#span-example {
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    border: solid black 3px;
+
+    padding: 20px;
+    margin: 20px;
+
+}
+
+#inline-block-example {
+    width: 250px;
+    height: 275px;
+    background-color: #ececec;
+    border: solid black 2px;
+
+}
+
+#span-block-example {
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    border: solid black 3px;
+
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#hide {
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    border: solid black 3px;
+    padding: 20px;
+    margin: 20px;
+
+    display: none;
+}

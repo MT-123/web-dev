@@ -1,0 +1,17 @@
+#demo{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(94, 94, 94);
+    background-image: url("https://images.unsplash.com/photo-1650520699023-9c7212fe0bcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: left;
+    background-size:contain;
+}
+
+#shorthand{
+    width: 1000px;
+    height: 500px;
+    background-color: grey;
+    background: top/contain no-repeat url("https://images.unsplash.com/photo-1650520699023-9c7212fe0bcf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"),bisque;
+    /* the position and size have to in the format of position/size */
+    /* the second background can be add by a comma */
+}

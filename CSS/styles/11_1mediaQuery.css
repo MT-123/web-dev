@@ -1,0 +1,28 @@
+h1{
+    font-size: 3rem;
+}
+nav{
+    background-color: beige;
+    display: flex;
+    justify-content:space-between;
+}
+
+@media (max-width:400px) {
+    /* when window width is less than 400px */
+    nav{
+        flex-direction: column;
+    }
+    span a{
+        display: block;
+        transform: translateX(.5rem);
+    }
+    
+}
+@media (min-width:500px){
+     /* when window width is more than 500px */
+    h1{
+        font-size: 4rem;
+        text-align: center;
+        color:blueviolet
+    }
+ }

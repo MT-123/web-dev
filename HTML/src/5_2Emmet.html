@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet Demo</title>
+</head>
+
+<!-- Emmet cheat sheet: https://docs.emmet.io/cheat-sheet/ -->
+<body>
+    <!-- ">"child: main>section>h1>ul>li -->
+    <main>
+        <section>
+            <h1>
+                <ul>
+                    <li>child</li>
+                </ul>
+            </h1>
+            <!-- "+"sibling: h2+h3+h4 -->
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <!-- "*"multiple: ul>li*5 -->
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <!-- "$"numbering:
+                ul>li*3>a[href=http://www.$.com]{web $}
+            []for attribute
+            {}for text  -->
+            <ul>
+                <li><a href="http://www.1.com">web 1</a></li>
+                <li><a href="http://www.2.com">web 2</a></li>
+                <li><a href="http://www.3.com">web 3</a></li>
+            </ul>
+
+        </section>
+    </main>
+
+</body>
+
+</html>

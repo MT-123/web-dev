@@ -1,0 +1,35 @@
+/* Pseudo Class is a keyword added to a selector to specify the state of the selected element */
+
+#buttonblue:hover {
+    background-color: blue;
+}
+
+#buttongreen:active {
+    background-color: green;
+}
+
+#buttonblack {
+    color: black;
+    background-color: whitesmoke;
+}
+
+.post:nth-of-type(2n) {
+    background-color: bisque;
+}
+.post:nth-of-type(3):hover {
+    /* pseudo class can be stacked */
+    background-color: burlywood;
+}
+
+#first-letter::first-letter {
+    font: 800px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#first-line::first-line {
+    font-weight: bold;
+}
+
+#first-line+p::selection {
+    color: aqua;
+}

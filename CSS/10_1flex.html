@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="styles/10_1flex.css">
+</head>
+
+<body>
+    <header>
+        <h1>Flex</h1>
+    </header>
+    <hr>
+    <main>
+        <h2>Flex direction</h2>
+        <h3>Row</h3>
+        <section id="direction-row">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <h3>Column</h3>
+        <section id="direction-column">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <hr>
+        <h2>Justify Content(main axis)</h2>
+        <section id="justify-1">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <h3>main axis: column; even space</h3>
+        <section id="justify-2">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <hr>
+        <h2>Wrap</h2>
+        <h3>Wrap</h3>
+        <section id="wrap-row">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <h3>Wrap-reverse</h3>
+        <section id="wrap-reverse">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <h3>Wrap: column as main axis</h3>
+        <section id="wrap-column">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        <hr>
+        <h2>Align(cross axis)</h2>
+        <h3>Align items(compare it with Wrap)</h3>
+        <section id="align">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+        
+        <h3>Align items(compare it with Wrap) baseline</h3>
+        <h4>Flex end(align to element)</h4>
+        <section id="align-flex-end">
+            <div style="background-color:#ffcdb2; height: 50px;">H</div>
+            <div style="background-color:#ffb4a2;height: 75px;font-size: 3rem;">E</div>
+            <div style="background-color:#e5989b;">L</div>
+            <div style="background-color:#b5838d;height: 125px;">L</div>
+            <div style="background-color:#6d6875;">O</div>
+        </section>
+        
+        <h4>Baseline(align to text)</h4>
+        <section id="align-baseline">
+            <div style="background-color:#ffcdb2; height: 50px;">H</div>
+            <div style="background-color:#ffb4a2;height: 75px;font-size: 3rem;">E</div>
+            <div style="background-color:#e5989b;">L</div>
+            <div style="background-color:#b5838d;height: 125px;">L</div>
+            <div style="background-color:#6d6875;">O</div>
+        </section>
+        
+        <h3>Align content</h3>
+        <h4>Align content: center</h4>
+        <section id="align-item-1">
+            <div style="background-color:#ffcdb2; height: 50px;">H</div>
+            <div style="background-color:#ffb4a2;height: 75px;font-size: 3rem;">E</div>
+            <div style="background-color:#e5989b;">L</div>
+            <div style="background-color:#b5838d;height: 125px;">L</div>
+            <div style="background-color:#6d6875;">O</div>
+        </section>
+        
+        <h4>Align content: space between</h4>
+        <section id="align-item-2">
+            <div style="background-color:#ffcdb2; height: 50px;">H</div>
+            <div style="background-color:#ffb4a2;height: 75px;font-size: 3rem;">E</div>
+            <div style="background-color:#e5989b;">L</div>
+            <div style="background-color:#b5838d;height: 125px;">L</div>
+            <div style="background-color:#6d6875;">O</div>
+        </section>
+        <h3>Align self</h3>
+        <section id="align-self">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section>
+<hr>
+        <h2>Flex Basis</h2>
+        <h3>Flex Basis</h3>
+        <section id="flex-basis">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section> 
+        
+        <h3>Flex Grow and Shrink</h3>
+        <h4>Flex Grow</h4>
+        <section id="flex-grow">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section> 
+        <h4>Flex Shrink</h4>
+        <section id="flex-shrink">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section> 
+        
+        <h3>Flex Shorthand</h3>
+        <section id="flex-shorthand">
+            <div style="background-color:#ffcdb2;"></div>
+            <div style="background-color:#ffb4a2;"></div>
+            <div style="background-color:#e5989b;"></div>
+            <div style="background-color:#b5838d;"></div>
+            <div style="background-color:#6d6875;"></div>
+        </section> 
+    
+
+    </main>
+
+</body>
+
+</html>
