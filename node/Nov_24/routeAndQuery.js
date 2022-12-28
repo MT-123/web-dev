@@ -4,7 +4,6 @@
 const express = require('express');
 const app = express();
 
-//start listening localhost:8080
 app.listen(8080, () => {
     console.log('Port 8080 listening!!')
 })
