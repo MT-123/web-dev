@@ -7,6 +7,10 @@ app.listen(8080, () => {
 })
 
 
+app.use(express.urlencoded({extended:true}))
+// enable parse req.body if used in post request 
+
+
 // only one send is allowed for a request, so these lines have to be disabled
 // app.use((req, res) => {
 //     console.log('A request coming!!!');
