@@ -1,0 +1,34 @@
+<!-- css link in head and js script at the bottom of body -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- download the css file from bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
+
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <!-- A code reusable way: using <%- %> to import the navbar code -->
+    <%- include('partial/navbar') %>
+
+    <div class="container">
+        <h1>This is h1</h1>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolores itaque porro illum eum incidunt
+            dolorum omnis? Dolores quibusdam repellendus sunt, saepe obcaecati nulla quas nam, ea perferendis, nostrum
+            similique?</span>
+        <br>
+        <button>button</button>
+    </div>
+
+    <!-- download the js file from bootstrap (.bundle is with full functions)-->
+    <script src="/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
