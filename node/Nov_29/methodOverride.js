@@ -37,3 +37,14 @@ app.patch('/edit',(req,res)=>{
     heading2 = editText;
     res.redirect('/')
 })
+
+app.get('/delete',(req,res)=>{
+    res.render('delete')
+})
+
+app.delete('/delete',(req,res)=>{
+    const {del} = req.body;
+    console.log(del);
+    if (del){heading2=''};
+    res.redirect('/')
+})
